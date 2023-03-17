@@ -1,0 +1,33 @@
+@mixin for-tablet_1 {
+    @media screen and (max-width:1185px){
+        @content;
+        
+    }
+    
+}
+
+@mixin for-tablet {
+    @media screen and (max-width:955px){
+        @content;
+        
+    }
+    
+}
+@mixin for-tablet-2 {
+    @media screen and (max-width:760px){
+        @content;
+    }
+    
+}
+@mixin for-phone {
+    @media screen and (max-width:710px){
+        @content;
+    }
+    
+}
+@mixin for-phone-2 {
+    @media screen and (max-width:440px){
+        @content;
+    }
+    
+}

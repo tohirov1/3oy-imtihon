@@ -1,0 +1,204 @@
+.site-section {
+    background: #f0f0f0;
+    // transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.main-box {
+    align-items: center;
+}
+.title {
+    max-width: 628px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.text {
+    margin-bottom: 40px;
+    max-width: 628px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.button{
+    width: 216px;
+    padding: 15px 0;
+    background-color: red;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.click{
+    width: 216px;
+    padding: 14px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #161A2B;
+    text-align: center;
+    border: 2px solid #161A2B;
+    margin-left: 48px;
+}
+// .imgIsland{
+//     max-width: 436px;
+//     width: 100%;
+// }
+
+
+@media only screen and (max-width: 1205px) {
+    .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        color: #000000;
+        margin-bottom: 32px;
+    }
+    .text {
+        margin-bottom: 40px;
+        // width: 368px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: #000000;
+    }
+    .button{
+        width: 144px;
+        padding: 15px 0;
+        background-color: red;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        color: white;
+        text-align: center;
+    }
+    .click{
+        width: 144px;
+        padding: 14px 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color: #161A2B;
+        text-align: center;
+        border: 2px solid #161A2B;
+        margin-left: 48px;
+    }
+    .imgIsland{
+        width: 402px;
+        height: 508px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+    .imgIsland{
+        width: 232px;
+        height: 328px;
+    }
+}
+
+
+@media only screen and (max-width: 810px) {
+    .title {
+        width: 300px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%;
+        color: #000000;
+        margin-bottom: 32px;
+    }
+    .text {
+        margin-bottom: 40px;
+        width: 300px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: #000000;
+    }
+    .button{
+        width: 144px;
+        padding: 15px 0;
+        background-color: red;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        color: white;
+        text-align: center;
+    }
+    .click{
+        width: 144px;
+        padding: 14px 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color: #161A2B;
+        text-align: center;
+        border: 2px solid #161A2B;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .imgIsland{
+        width: 402px;
+        height: 508px;
+        margin-left: 10px;
+    }
+    .main-btn{
+        display: flex;
+        // justify-content: center;
+        flex-direction: column;
+    }
+    
+}
+.imgIsland1{
+    display: none;
+}
+@media only screen and (max-width: 706px){
+    .imgIsland{
+       display: none;
+    }
+    .imgIsland1{
+        display: block;
+    }
+    .main-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main-btn{
+        display: flex;
+        // justify-content: center;
+        flex-direction: row;
+    }
+    .click{
+        margin-top: 0;
+        margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 490px) {
+    .imgIsland1{
+        width: 276px;
+        height: 379px;
+    }
+}

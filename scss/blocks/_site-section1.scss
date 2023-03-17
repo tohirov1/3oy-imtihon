@@ -1,0 +1,124 @@
+.wrap{
+    background: #161A2B;
+    color: white;
+    height: 592px;
+    width: 100%;
+    border-bottom: 10px solid red;
+}
+.wrap1{
+    background-image: url("../images/Power__plant1__bg.png");
+    height: 582px;
+    width: 100%;
+}
+.site-section1{
+    display: flex;
+    width: 100%;
+}
+.main-wrap{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.item{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.main-wrap > h2{
+    margin-bottom: 45px;
+}
+.item1{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.elItem{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.wrap-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 170px;
+    gap: 16px;
+    // flex-wrap: wrap;
+    margin-right: 5px;
+}
+.hero{
+    background-color: #FFFFFF;
+    width: 576px;
+}
+.hero > h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+.img-top{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 16px;
+}
+.text-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+}
+.hero-text{
+    width: 492px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-left: 40px;
+}
+main{
+    background: #F0F0F0;
+}
+.site-section2{
+    padding-bottom: 80px;
+}
+.main-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-hero1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border-div{
+    display: flex;
+    justify-content: flex-end;
+}
+.border-red{
+   border-bottom: 6px solid red;
+   width: 360px;
+   display: flex;
+   justify-content: flex-end;
+}
+@media only screen and (max-width:1000px) {
+    .wrap1{
+        background-image: url("../images/Power__plant1__bg.png");
+        height: 1000px;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .wrap-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        gap: 16px;
+        top: 0;
+        flex-wrap: wrap;
+        margin-right: 5px;
+    }
+}

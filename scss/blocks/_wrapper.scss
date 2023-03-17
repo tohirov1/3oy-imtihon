@@ -1,0 +1,138 @@
+// .wrapper{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 20px 0;
+
+// }
+// .logo{
+//   background-color: #fff;
+// }
+// .list{
+//     display: flex;
+//     align-items: center;
+//     gap: 78px;
+
+// }
+
+// .ham-btn{
+//     display: none;
+// }
+// .link{
+//     text-decoration: none;
+// }
+
+
+// @media only screen and (max-width: 1006px) {
+//     .list-item{
+//         display: none;
+//     }
+//     .ham-btn{
+//         display: block;
+//     }
+   
+// }
+
+.logo{
+    width: 100%;
+}
+.ham-btn{
+    display: none;
+}
+.logo-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 87px;
+    padding-top: 20px;
+
+    @include for-phone{
+        display: none;
+    }
+}
+.logo-list{
+    @include for-tablet{
+        column-gap: 40px;
+    }
+}
+
+@media (max-width: 710px) {
+
+    header{
+        padding: 12px 20px;
+    }
+    header.sticky{
+        padding: 10px 20px;
+    }
+    .nav-header{
+        position: fixed;
+        top: 0;
+    }
+
+.logo-list.active{
+    z-index: 888;
+    margin-top: 70px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    width: 408px;
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    transition: 0.6s ease;
+    row-gap: 30px;
+    align-items: flex-start;
+}
+.logo-list a{
+    color: #000;
+    font-size: 22px;
+    margin: 10px;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+.ham-btn{
+    display: block;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+}
+.logo-link-2{
+    text-decoration: none;
+    color: #000;
+}
+.loho-item{
+    align-items: center;
+}
+.logo-img{
+    padding-right: 10px;
+}
+.logo-link{
+    max-width: 120px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.logo-link{
+    @include for-tablet-2{
+        max-width: 90px;
+        font-size: 12px;
+    }
+}
+.active-list{
+    display: block;
+}
+.nav-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
